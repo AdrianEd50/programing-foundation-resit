@@ -19,3 +19,26 @@ const house = {
 };
 
 console.log([house.type, house.rooms, house.material, house.occupied]);
+
+/*Task 3*/
+var books = [
+  {
+    name: "rich dad poor dad",
+  },
+  {
+    name: "Lord of the rings, the wo towers",
+  },
+  {
+    name: "Harry potter and the sorcery stone",
+  },
+];
+
+const book = books;
+
+function bookName(book) {
+  for (var i = 0; i < book.length; i++) {
+    console.log("I like" + " " + book[i].name);
+  }
+}
+
+bookName(book);
